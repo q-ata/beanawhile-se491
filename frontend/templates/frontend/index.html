@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Beanawhile</title>
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="background-color" content="#FFFFFF" />
+    <meta name="author" content="Beanawhile" />
+    <meta charset="UTF-8"> 
+    <link rel="icon" type="image/png" href="{% static "frontend/logo-32.png" %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://res.cloudinary.com" />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script src="{% static "frontend/index.js" %}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=INSERT_GOOGLE_API_KEY_HERE&libraries=places"></script>
+  <noscript>Javascript is not enabled on your browser</noscript>
+</html>

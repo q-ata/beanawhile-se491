@@ -1,0 +1,7 @@
+td.range > div.day-content {
+  background: #cccccc !important;
+}
+
+.calendar {
+  overflow-x: visible;
+}
